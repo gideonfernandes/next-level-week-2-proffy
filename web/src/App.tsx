@@ -1,12 +1,11 @@
 import React from 'react';
 import './assets/styles/global.css';
 
+import Landing from './components/pages/Landing';
+
 function App() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-      <button>Omnistack!</button>
-    </div>
+    <Landing />
   );
 };
 
